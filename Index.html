@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel='stylesheet' href= 'IndexCss.css'/>
+</head>
+
+  
+<body>
+  <form>
+  <div class="container">
+    <h1 class="heading">Yards to Meter Converter</h1>
+    
+    <!-- First text field -->
+    <div class="measure-container">
+      <label for="yards">Yards</label>
+      <input style="cursor: pointer;"type="number" name="yards" id="yards" class="yards" placeholder="Enter Yards" />    
+    </div> 
+    <!-- error function -->
+    <span id= "error"></span>
+    <!-- Second text field -->
+    <div class="measure-container">
+   <label for="output">Output(Meters)</label>
+      <input style="background-color: gold;" type="text" name="output" id="output" class="output"  disabled/>
+    </div>
+    <!-- buttons -->
+      <div class="measure-container">
+        <!-- using inline style for buttons  -->
+      <input type="button" value="Convert" id="btnConvert" class="buttonFormat" />
+        <input type="reset" value="Reset" id="btnReset" class="buttonFormat" />
+    </div>
+    </div>
+    </form>
+  <script>
+    
+    //function
+  function convertMe(){   
+    
+  let yards =    document.getElementById("yards").value;
+    //ERROR NOTIFICATION!
+    
+    //Error for no value or Required
+    if (yards ==="") {    
+      document.getElementById("error").innerHTML = "Required: Please enter a valid value.";
+      document.getElementById("output").value ="";
+      return;
+    }//end of if method
+    //Maximum-Length 
+    if(yards.length >10){
+      document.getElementById('error').innerHTML="Value limit reached!(Max.10 numbers)"; 
+      document.getElementById("output").value ="";
+      return;
+    }// end of if method
+    //Minimum-Length 
+    if(yards.length <2){
+      document.getElementById('error').innerHTML="The value has minimum length!(2 or more values)"; 
+      document.getElementById("output").value ="";
+      return;
+      }//end of if method
+      //Error for Negative Numbers
+    if(yards <=0){
+      document.getElementById('error').innerHTML="Please enter a positive value."; 
+      document.getElementById("output").value ="";
+      return;
+      }// end of if method
+      
+   //formula with decimal limit
+  let meters = yards / 1.094;    
+      document.getElementById("output").value = meters.toFixed(2);       
+  } //end of Function Method
+  
+      //EventListener Method
+  
+  //Button For convert
+      document.getElementById("btnConvert").addEventListener("click",convertMe);
+  
+  //Clear Error When start a New value
+      document.getElementById("yards").addEventListener("input",function(){ 
+      document.getElementById("error").innerHTML ="";    
+      document.getElementById("output").value ="";
+ });
+    </script>
+</body>
+</html>
+ 
