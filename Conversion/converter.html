@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel='stylesheet' href= 'converterCss.css'/>
+</head>
+<body>
+  <form>
+  <div class="container">
+    <h1 class="heading">Yards to Meter Converter</h1>
+    <div class="measure-container">
+      <label for="Yards">Yards</label>
+      <input style="cursor: pointer;"type="text"  name="Yards" id="yards" class="yards" placeholder="Enter Yards"  required maxlength="8"minlength="4" size="30"/> <!--input or text field 1-->
+    </div>
+ 
+    <div class="measure-container">
+   <label for="output">Output(Meters)</label>
+      <input style="background-color: gold;" type="text" name="output" id="output" maxlength="8" minlength="4" size="10" disabled/> <!--output with disabled or text field 2-->
+    </div>
+    
+      <div class="measure-container">
+      <input type="button" value="Convert" id="btnConvert" class="buttonFormat" /> <!--convert button-->
+        <input type="reset" value="Reset" id="btnReset" class="buttonFormat"/> <!--reset button-->
+        <p>1 yard = 0.9144 meters</p>
+    </div>
+    </div>
+  
+    </form>
+  <script src = "converterscript.js">  </script>
+</body>
+</html>
+
+
