@@ -31,7 +31,7 @@ input{ /* style for text field*/
 #btnLogin,#btnReset{ /*style for buttons*/
   border-radius: 10px;
   background-color: gray;
-kkkkkk box-shadow:  0 4px 10px;
+   box-shadow:  0 4px 10px;
 }
 .heading{ /*style for "Login Validation" */
   text-align: center;
