@@ -26,10 +26,12 @@ input{ /* style for text field*/
 }
  input{ /* style for text field*/
   border-bottom: solid whitesmoke;
+    
  }
 #btnLogin,#btnReset{ /*style for buttons*/
   border-radius: 10px;
   background-color: gray;
+kkkkkk box-shadow:  0 4px 10px;
 }
 .heading{ /*style for "Login Validation" */
   text-align: center;
