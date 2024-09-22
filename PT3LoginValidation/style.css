@@ -1,0 +1,59 @@
+
+
+body{ /* style for background and table center alignment*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+  background: linear-gradient( to left bottom,royalblue, lightblue);
+}
+
+table{ /* style for table or box*/
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  border: solid 2px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow:  0 4px 10px;
+}
+input{ /* style for text field*/
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+  padding: 10px;
+}
+ input{ /* style for text field*/
+  border-bottom: solid whitesmoke;
+ }
+#btnLogin,#btnReset{ /*style for buttons*/
+  border-radius: 10px;
+  background-color: gray;
+}
+.heading{ /*style for "Login Validation" */
+  text-align: center;
+  font-size: 35px;
+}
+#pMsg,#uMsg{ /* style for error msg*/
+  color: red;
+  font-family: arial;
+  font-size: 12px;
+}
+#lMsg{ /* style for Login Successfuly*/
+  color: green;
+  font-size: 20px;
+}
+.documentation{ /* style for documentation*/
+  border: solid black;
+  background-color: white;
+  height: 400px;
+  width: 395px;
+  font-family: arial;
+  word-wrap: break-word;
+  border-radius: 10px;
+}
+.dochead{
+  text-align: center;
+}
+
