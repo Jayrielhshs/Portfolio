@@ -1,0 +1,14 @@
+
+#head{
+        text-align: center;
+    }
+table,td{
+        border: 1px solid black;
+        background-color: gainsboro;
+    }
+.dis{
+        background-color: gold;
+}
+table{
+        box-shadow:  0 4px 10px;
+}
