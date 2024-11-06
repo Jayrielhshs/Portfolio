@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrift Store</title>
+   <link rel="stylesheet" href="CATALOG.css">
+</head>
+<body>
+    <h1 align = "center"> JR's Online Thrift Shop</h1>
+    <div class="container" id="box"></div>
+
+    <script>
+        // Fetch data from the JSON file
+      fetch('CATALOG.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('box');
+                
+      data.product.forEach(item=> { 
+        const s= document.createElement('box');
+        s.className = 'item-box';
+        s.innerHTML = `<img src="${item.image}" item="${item.name}">
+             <h3>${item.name}</h3>
+             <p class="des">${item.description}</p>
+             <p class="price">${item.price}</p>
+                    `;
+               container.appendChild(s);
+          });
+      })
+         .catch(error => {
+            console.error('error', error);
+         });
+    </script>
+    <footer>
+      <p>Programmed By: JAYRIEL B. RAMOS</p>
+      <p>G-12 COOPER</p>
+    </footer>
+</body>
+</html>
