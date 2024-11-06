@@ -1,0 +1,77 @@
+{
+  
+  "product":[{
+    
+    "name": "Carhartt Jacket Detroit ",
+    "description": "Tough and hardworking, the Carhartt Men's Duck Detroit Jacket offers cold weather warmth, durable performance, and American-made quality. Featuring a tightly woven and heavyweight 100% cotton duck fabric, this jacket is highly abrasion-resistant, water repellent, and wind-resistant.",
+    "image": "JacketDetroit.jpg",
+    "price": "$180"
+    },
+  {
+    "name": "BapeXStussy Shark Hoodie",
+    "description": "The Bape x Stussy Shark Hoodie in Black combines BAPE's iconic shark face hood with Stussy branding. It features a zip-up design that fully closes over the face, premium materials, and a sleek black colorway, making it a bold streetwear essential.",
+    "image": "BapeXStussy.jpeg",
+    "price": "$186.04"
+    },
+  {
+    "name": "Bershka Grey Denim Jorts",
+    "description": "The Bershka grey denim jorts are stylish and comfortable, featuring a mid-rise fit and a relaxed cut that hits mid-thigh. Made from soft, durable denim in a versatile grey wash, these shorts combine a modern look with casual appeal. Perfect for warm-weather outfits, they pair easily with tees, tanks, and hoodies.",
+    "image": "Jorts.jpeg",
+    "price": "$40"
+    },
+  {
+    "name": "JNCO Dice Denim Jeans",
+    "description": "The JNCO Dice denim pants are bold and iconic, featuring a loose, wide-leg fit with signature retro flair. Made from durable denim, they showcase the classic JNCO Dice embroidery on the back pocket and have deep front pockets. These pants embody 90s streetwear style, making a statement with their oversized silhouette and comfortable feel.",
+    "image": "Jncojeans.jpeg",
+    "price": "$90"
+   },
+  {
+    "name": "Boxed Cropped Polo",
+    "description": "The cropped polo is a trendy take on the classic polo shirt, featuring a shorter length that hits at the waist or just above. With its collared neckline and buttoned placket, it combines sporty style with a modern twist, making it easy to pair with high-waisted jeans, skirts, or shorts for a fresh, casual look.",
+    "image": "Croppolo.jpeg",
+    "price": "$40" 
+    },
+  {
+    "name": "Nike Track Pants ",
+    "description": "Nike track pants are sleek, sporty pants designed for comfort and performance. Made from lightweight, breathable fabric, they feature an elastic waistband, tapered legs, and zippered ankle cuffs for an adjustable fit. With iconic Nike branding, these track pants are perfect for workouts or casual wear, providing both style and flexibility.",
+    "image": "NikeTrackPants.jpeg",
+    "price": "$80"
+    },
+  {
+    "name": "Stussy Angel",
+    "description": "The Stussy Angel shirt is a statement piece with a relaxed fit, crafted from soft, lightweight fabric. Featuring a bold angel graphic print along with the classic Stussy logo, this shirt adds a touch of streetwear edge to any outfit. Perfect for layering or wearing solo, it combines comfort with unique, artistic style.",
+    "image": "StussyShirt.jpeg",
+    "price": "$100"
+   },
+  {
+    "name": "UniqLo SweatPants",
+    "description": "Uniqlo sweatpants offer a blend of comfort and simplicity, made from soft, high-quality cotton or cotton-blend fabric. With an elastic waistband, adjustable drawstring, and tapered leg design, these sweatpants provide a relaxed fit ideal for lounging or casual outings. They’re versatile, durable, and easy to style with any top.",
+    "image": "Sweatpants.jpeg",
+    "price": "$35" 
+   },
+  { 
+    "name": "Comme des Garçons PLAY ",
+    "description": "The Comme des Garçons PLAY shirt is a minimalist yet iconic piece, crafted from high-quality cotton for a comfortable fit. Featuring a classic button-down design, it is subtly adorned with the brand’s signature heart logo with eyes on the chest. This shirt merges timeless style with a playful touch, perfect for adding understated sophistication to any look.",
+    "image": "CDGplay.jpg",
+    "price": "$170.50"
+   },
+  {
+    "name": "Carhartt Jeans",
+    "description": "Carhartt jeans are rugged, durable denim pants designed for comfort and functionality. Made from heavy-duty cotton, they feature a relaxed or straight-leg fit and reinforced stitching, ideal for work or everyday wear. Known for their classic style and long-lasting quality, Carhartt jeans offer practicality without sacrificing style.",
+    "image": "CarharttJeans.jpeg",
+    "price": "$70"
+    },
+    {
+    "name": "Diekies Pants",
+    "description": "Dickies pants are known for their durability and practicality, designed with a tough, workwear-inspired aesthetic. Made from sturdy cotton or cotton-blend fabric, they offer a comfortable fit with a straight-leg or relaxed cut. Perfect for both work and casual wear, Dickies pants are built to withstand daily wear while providing timeless, functional style.",
+    "image": "DiekiesPants.jpeg",
+    "price": "$50"
+    },
+    {
+    "name": " Thrasher Long Sleeve",
+    "description": "The Thrasher long sleeve shirt combines skate culture with streetwear style. Made from soft, breathable cotton, it features the iconic Thrasher flame logo across the chest or back. With its relaxed fit and long sleeves, this shirt offers both comfort and bold graphic appeal, making it a staple for skaters and fashion enthusiasts alike.",
+    "image": "ThrasherLongSleeve.jpg",
+    "price": "$50"
+    }
+  ]
+}
