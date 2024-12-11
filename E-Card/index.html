@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Letter</title>
+  <style>
+    div {
+      border-radius: 6px;
+      background: #ADD8E6;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .header,
+    .letterbtn {
+      background: grey;
+      border: 2px solid black;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+     
+    }
+
+    .letter {
+      display: none;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Merry Christmas</h1>
+
+  <div style="text-align: center">
+    <svg width="300" height="400" viewBox="-150 -200 300 400">
+      <!-- Tree layers -->
+      <polygon points="0,0 80,120 -80,120" fill="#234236" />
+      <polygon points="0,-40 60,60 -60,60" fill="#0C5C4C" />
+      <polygon points="0,-80 40,0 -40,0" fill="#38755B" />
+      <rect x="-20" y="120" width="40" height="30" fill="brown" />
+
+      <!-- Christmas balls -->
+      <!-- Bottom layer -->
+      <circle cx="-50" cy="100" r="5" fill="red" />
+      <circle cx="50" cy="100" r="5" fill="gold" />
+      <circle cx="0" cy="100" r="5" fill="blue" />
+      <!-- Middle layer -->
+      <circle cx="-30" cy="50" r="5" fill="silver" />
+      <circle cx="30" cy="50" r="5" fill="pink" />
+      <circle cx="0" cy="50" r="5" fill="purple" />
+      <!-- Top layer -->
+      <circle cx="20" cy="-15" r="5" fill="red" />
+      <circle cx="-20" cy="-15" r="5" fill="gold" />
+      <circle cx="0" cy="-15" r="5" fill="blue" />
+
+      <!-- Gifts -->
+      <!-- Left gift -->
+      <rect x="-100" y="130" width="40" height="40" fill="#FF6347" />
+      <line x1="-100" y1="150" x2="-60" y2="150" stroke="gold" stroke-width="2" />
+      <line x1="-80" y1="130" x2="-80" y2="170" stroke="gold" stroke-width="2" />
+      <!-- Right gift -->
+      <rect x="60" y="130" width="40" height="40" fill="#4682B4" />
+      <line x1="60" y1="150" x2="100" y2="150" stroke="white" stroke-width="2" />
+      <line x1="80" y1="130" x2="80" y2="170" stroke="white" stroke-width="2" />
+
+      <!-- Snowman -->
+      <!-- Snowman body (3 circles) -->
+      <circle cx="-100" cy="100" r="20" fill="white" />
+      <circle cx="-100" cy="75" r="15" fill="white" />
+      <circle cx="-100" cy="55" r="10" fill="white" />
+
+      <!-- Snowman features (eyes, buttons, scarf, and carrot nose) -->
+      <circle cx="-105" cy="51" r="2" fill="black" />
+      <circle cx="-95" cy="51" r="2" fill="black" />
+      <circle cx="-100" cy="75" r="2" fill="black" />
+      <circle cx="-100" cy="68" r="2" fill="black" />
+      <line x1="-100" y1="58" x2="-100" y2="52" stroke="orange" stroke-width="3" />
+
+      <!-- Snowman scarf -->
+      <rect x="-115" y="60" width="30" height="5" fill="red" />
+      <rect x="-115" y="65" width="10" height="15" fill="red" />
+      <!-- Snowman cap -->
+      <rect x="-112" y="45" width="24" height="5" fill="black" />
+      <rect x="-106" y="40" width="12" height="5" fill="black" />
+    </svg>
+  </div>
+
+  <div style="text-align: center">
+    <a href="javascript:void(0)" class="letterbtn" onclick="toggleLetter()">Show Letter</a>
+  </div>
+
+  <div class="letter">
+    <h1>Christmas Letter</h1>
+    <h3>Dear Grandma,<br>
+      I just want to take a moment to say thank you for everything. I’m so grateful for all the love, care, and sacrifices you’ve made for me. You’ve always been there for me, cheering me on, and inspiring me.</h3>
+
+    <h3>Thank you for comforting me when I needed it, giving me advice when I was unsure, and being patient even when I messed up. I know everything you do comes from a place of love, and I appreciate it so much.</h3>
+
+    <h3>You’ve taught me so many important lessons about kindness, strength, and hard work, and I carry those with me every day. I’m lucky to have you as my mom, and I want you to know how much I love and appreciate you.</h3>
+
+    <h3>I promise I’ll do my best to make you proud and show you the same love and care you’ve always shown me. Thank you for being the best mom ever.</h3>
+
+    <h3>With love,<br>
+      Jay</h3>
+  </div>
+
+  <script>
+    function toggleLetter() {
+      var letterDiv = document.querySelector('.letter');
+      if (letterDiv.style.display === "none" || letterDiv.style.display === "") {
+        letterDiv.style.display = "block";
+      } else {
+        letterDiv.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
