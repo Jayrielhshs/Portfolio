@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Drop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Simple Drag and Drop Game</h1>
+    </header>
+    <div class="container">
+        <div class="draggableContainer">
+            <div class="box" draggable="true" id="box1">
+           <img src="cat2.jpg" alt="Cat" class="draggable-image">
+            </div>
+            <div class="box" draggable="true" id="box2"> <img src="frog4.jpg" alt="Cat" class="draggable-image"></div>
+            <div class="box" draggable="true" id="box3"> <img src="dog3.jpg" alt="Cat" class="draggable-image"></div>
+            <div class="box" draggable="true" id="box4"> <img src="car4.jpg" alt="Cat" class="draggable-image"></div>
+        </div>
+        <div class="droppableContainer">
+            <div class="droppable" data-draggable-id="box4">Car</div>
+            <div class="droppable" data-draggable-id="box3">Dog</div>
+            <div class="droppable" data-draggable-id="box1">Cat</div>
+            <div class="droppable" data-draggable-id="box2">Frog</div>
+        </div>
+    </div>
+    <div class="board">
+        Remarks:<p id="remarks"></p>
+        Total Score:<p id="scores"></p>
+    </div>
+    <div>
+      <h5>Programmed by: Jayriel Ramos</h5>
+      <h5>12-Cooper</h5>
+    </div>
+</body>
+</html>
